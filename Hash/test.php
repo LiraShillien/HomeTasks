@@ -18,3 +18,25 @@ $hashTable->write($hashFunction3(), $str3);
 $hashTable->getValue('Lira');
 
 //var_dump($hashTable);
+
+//Solving collisions via Linked List:
+
+//HashTable::__set_state(array(
+//    'storage' =>
+//        array (
+//            17 =>
+//                MyLinkedList::__set_state(array(
+//                    'head' =>
+//                        MySeparateNode::__set_state(array(
+//                            'value' => 'Lira',
+//                            'next' =>
+//                                MySeparateNode::__set_state(array(
+//                                    'value' => 'ariL',
+//                                    'next' => NULL,
+//                                    'previous' => NULL,
+//                                )),
+//                            'previous' => NULL,
+//                        )),
+//                )),
+//            7 => 'Anna',
+//        ),
